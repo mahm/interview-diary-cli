@@ -11,7 +11,7 @@ def chat_template():
 def diary_template():
     return PromptTemplate(
         input_variables=["text"],
-        template=load_prompt("console"),
+        template=load_prompt("diary"),
     )
 
 
