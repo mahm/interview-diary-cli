@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "interview-diary-cli"
+version = "0.1.0"
+description = ""
+authors = ["Masahiro Nishimi <mah@edged-edge.jp>"]
+readme = "README.md"
+packages = [{include = "interview_diary_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+speechrecognition = "^3.10.0"
+pyaudio = "^0.2.13"
+langchain = "^0.0.121"
+openai = "^0.27.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
